@@ -1,4 +1,4 @@
-install.packages("stringr)
+install.packages("stringr")
 install.packages("dplyr")
 install.packages("magrittr")
 install.packages("reshape2")
