@@ -18,3 +18,4 @@ jobs:
         DOCKER_REGISTRY: "quay.io"
         IMAGE_NAME: "ljunwen/rstudio"
         BINDER_CACHE: true
+        NOTEBOOK_USER: joyvan
