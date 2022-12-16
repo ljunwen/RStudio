@@ -19,3 +19,5 @@ jobs:
         IMAGE_NAME: "ljunwen/rstudio"
         BINDER_CACHE: true
         NOTEBOOK_USER: "guest"
+        LATEST_TAG_OFF: true
+        MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org with the branch that was pushed on.
