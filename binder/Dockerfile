@@ -3,4 +3,5 @@ FROM quay.io/ljunwen/rstudio:f8627f3e2abe
 
 # COPY . ${HOME}
 RUN wget -O "HG4051 - Week 1.R" "https://raw.githubusercontent.com/ljunwen/HG4051/main/HG4051 - Week 1.R"
+RUN wget -O "HG4051 - Week 1.R" "https://raw.githubusercontent.com/ljunwen/HG4051/main/HG4051 - Week 1 (stats).R"
 RUN wget -O "HG4051 - Week 2.R" "https://raw.githubusercontent.com/ljunwen/HG4051/main/HG4051 - Week 2.R"
