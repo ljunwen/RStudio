@@ -2,4 +2,6 @@
 FROM quay.io/ljunwen/rstudio:f8627f3e2abe
 
 # COPY . ${HOME}
-RUN wget -O "HG2052 - Week 9.R" "https://raw.githubusercontent.com/ljunwen/HG4051/main/HG2052 - Week 9.R"
+RUN wget -O "HG4051 - Week 1.R" "https://raw.githubusercontent.com/ljunwen/HG4051/main/HG4051 - Week 1.R"
+RUN wget -O "HG4051 - Week 1 (stats).R" "https://raw.githubusercontent.com/ljunwen/HG4051/main/HG4051 - Week 1 (stats).R"
+RUN wget -O "Week 1 - NSC 3009.txt" "https://raw.githubusercontent.com/ljunwen/HG4051/main/data/Week 1 - NSC 3009.txt"
