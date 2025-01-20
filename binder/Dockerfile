@@ -2,4 +2,4 @@
 FROM quay.io/ljunwen/rstudio:f8627f3e2abe
 
 # COPY . ${HOME}
-RUN wget -O "HG6208 - Week 2.R" "https://raw.githubusercontent.com/ljunwen/HG6208/refs/heads/main/HG6208%20Week%202.R"
+RUN wget -O "HG6208 - Week 2.R" "https://raw.githubusercontent.com/ljunwen/HG6208/main/HG6208%20Week%202.R"
